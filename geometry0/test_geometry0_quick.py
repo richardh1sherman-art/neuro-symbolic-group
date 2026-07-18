@@ -18,6 +18,9 @@ sys.path.insert(0, _smt_ilp_dir)  # SMT-ILP root
 
 # Find PyGol root
 def _find_pygol_root():
+    # Bypass broken local path lookup since PyGol is installed in our venv
+    return "PyGol" 
+#def _find_pygol_root():
     """Find PyGol root directory by checking common locations."""
     if 'PYGOL_ROOT' in os.environ:
         pygol_root = os.environ['PYGOL_ROOT']
