@@ -1,4 +1,5 @@
 \documentclass[twocolumn]{article}
+\PassOptionsToPackage{hyphens}{url} % FIXED: Pre-injects line-breaking into url
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{booktabs}
@@ -7,9 +8,10 @@
 \usepackage{graphicx}
 \usepackage{tabularx}
 \usepackage{url}
+\usepackage{hyperref}     % Makes the printed link actively clickable
 \geometry{margin=1in}
 
-\title{Neuro-Symbolic Superposition: Reversible, Self-Similar Group Automata for Combinatorial Optimization and Automated Theorem Proving\thanks{Source code repository available at: \protect\url{https://github.com}}}
+\title{Neuro-Symbolic Superposition: Reversible, Self-Similar Group Automata for Combinatorial Optimization and Automated Theorem Proving\thanks{Source code repository available at: \protect\url{https://github.com}\protect\url{richardh1sherman-art/}\protect\url{neuro-symbolic-group}}}
 \author{R. Sherman}
 \date{\today}
 
