@@ -1,1 +1,0 @@
-:- aleph_set(clauselength,10).
