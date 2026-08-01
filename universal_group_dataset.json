@@ -1,0 +1,176 @@
+[
+    {
+        "prompt_metadata": {
+            "num_bits": 4,
+            "initial_binary_token": 1,
+            "target_binary_token": 0,
+            "total_operational_steps": 1
+        },
+        "token_sequences": {
+            "input_state_tokens": [
+                "STATE_1"
+            ],
+            "target_operator_tokens": [
+                "OP_G1"
+            ],
+            "output_state_token": "STATE_0"
+        },
+        "schreier_graph_projection": [
+            "0 -> 0 -> 0 -> 2",
+            "0 -> 0 -> 0 -> 0"
+        ]
+    },
+    {
+        "prompt_metadata": {
+            "num_bits": 4,
+            "initial_binary_token": 2,
+            "target_binary_token": 0,
+            "total_operational_steps": 3
+        },
+        "token_sequences": {
+            "input_state_tokens": [
+                "STATE_2",
+                "STATE_3",
+                "STATE_1"
+            ],
+            "target_operator_tokens": [
+                "OP_G1",
+                "OP_G2",
+                "OP_G1"
+            ],
+            "output_state_token": "STATE_0"
+        },
+        "schreier_graph_projection": [
+            "0 -> 0 -> 2 -> 0",
+            "0 -> 0 -> 2 -> 2",
+            "0 -> 0 -> 0 -> 2",
+            "0 -> 0 -> 0 -> 0"
+        ]
+    },
+    {
+        "prompt_metadata": {
+            "num_bits": 4,
+            "initial_binary_token": 3,
+            "target_binary_token": 0,
+            "total_operational_steps": 2
+        },
+        "token_sequences": {
+            "input_state_tokens": [
+                "STATE_3",
+                "STATE_1"
+            ],
+            "target_operator_tokens": [
+                "OP_G2",
+                "OP_G1"
+            ],
+            "output_state_token": "STATE_0"
+        },
+        "schreier_graph_projection": [
+            "0 -> 0 -> 2 -> 2",
+            "0 -> 0 -> 0 -> 2",
+            "0 -> 0 -> 0 -> 0"
+        ]
+    },
+    {
+        "prompt_metadata": {
+            "num_bits": 4,
+            "initial_binary_token": 4,
+            "target_binary_token": 0,
+            "total_operational_steps": 1
+        },
+        "token_sequences": {
+            "input_state_tokens": [
+                "STATE_4"
+            ],
+            "target_operator_tokens": [
+                "OP_G2"
+            ],
+            "output_state_token": "STATE_0"
+        },
+        "schreier_graph_projection": [
+            "0 -> 2 -> 0 -> 0",
+            "0 -> 0 -> 0 -> 0"
+        ]
+    },
+    {
+        "prompt_metadata": {
+            "num_bits": 4,
+            "initial_binary_token": 5,
+            "target_binary_token": 0,
+            "total_operational_steps": 2
+        },
+        "token_sequences": {
+            "input_state_tokens": [
+                "STATE_5",
+                "STATE_4"
+            ],
+            "target_operator_tokens": [
+                "OP_G1",
+                "OP_G2"
+            ],
+            "output_state_token": "STATE_0"
+        },
+        "schreier_graph_projection": [
+            "0 -> 2 -> 0 -> 2",
+            "0 -> 2 -> 0 -> 0",
+            "0 -> 0 -> 0 -> 0"
+        ]
+    },
+    {
+        "prompt_metadata": {
+            "num_bits": 4,
+            "initial_binary_token": 6,
+            "target_binary_token": 0,
+            "total_operational_steps": 4
+        },
+        "token_sequences": {
+            "input_state_tokens": [
+                "STATE_6",
+                "STATE_2",
+                "STATE_3",
+                "STATE_1"
+            ],
+            "target_operator_tokens": [
+                "OP_G2",
+                "OP_G1",
+                "OP_G2",
+                "OP_G1"
+            ],
+            "output_state_token": "STATE_0"
+        },
+        "schreier_graph_projection": [
+            "0 -> 2 -> 2 -> 0",
+            "0 -> 0 -> 2 -> 0",
+            "0 -> 0 -> 2 -> 2",
+            "0 -> 0 -> 0 -> 2",
+            "0 -> 0 -> 0 -> 0"
+        ]
+    },
+    {
+        "prompt_metadata": {
+            "num_bits": 4,
+            "initial_binary_token": 7,
+            "target_binary_token": 0,
+            "total_operational_steps": 3
+        },
+        "token_sequences": {
+            "input_state_tokens": [
+                "STATE_7",
+                "STATE_5",
+                "STATE_4"
+            ],
+            "target_operator_tokens": [
+                "OP_G2",
+                "OP_G1",
+                "OP_G2"
+            ],
+            "output_state_token": "STATE_0"
+        },
+        "schreier_graph_projection": [
+            "0 -> 2 -> 2 -> 2",
+            "0 -> 2 -> 0 -> 2",
+            "0 -> 2 -> 0 -> 0",
+            "0 -> 0 -> 0 -> 0"
+        ]
+    }
+]
