@@ -1,0 +1,51 @@
+[
+  {
+    "depth_ceiling": 2,
+    "dimension": 4,
+    "init_seconds": 0.17089454300003126,
+    "exec_seconds": 0.002638218200299889,
+    "vram_mb": 32.001953125
+  },
+  {
+    "depth_ceiling": 4,
+    "dimension": 16,
+    "init_seconds": 0.000144527992233634,
+    "exec_seconds": 5.419839872047305e-06,
+    "vram_mb": 32.00244140625
+  },
+  {
+    "depth_ceiling": 6,
+    "dimension": 64,
+    "init_seconds": 3.340799594298005e-05,
+    "exec_seconds": 5.359359784051776e-06,
+    "vram_mb": 32.01708984375
+  },
+  {
+    "depth_ceiling": 8,
+    "dimension": 256,
+    "init_seconds": 2.95360223390162e-05,
+    "exec_seconds": 0.00021041623898781836,
+    "vram_mb": 32.25244140625
+  },
+  {
+    "depth_ceiling": 10,
+    "dimension": 1024,
+    "init_seconds": 0.0007268789922818542,
+    "exec_seconds": 6.172799039632082e-06,
+    "vram_mb": 36.00830078125
+  },
+  {
+    "depth_ceiling": 12,
+    "dimension": 4096,
+    "init_seconds": 0.0016071359859779477,
+    "exec_seconds": 0.0002512584603391588,
+    "vram_mb": 96.03173828125
+  },
+  {
+    "depth_ceiling": 14,
+    "dimension": 16384,
+    "init_seconds": 0.027508708997629583,
+    "exec_seconds": 0.004096793660428375,
+    "vram_mb": 1056.12548828125
+  }
+]
