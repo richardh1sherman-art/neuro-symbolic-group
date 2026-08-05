@@ -188,3 +188,31 @@ The module programmatically constructs the branching paths to ensure exact preci
   -> Formal Horn Clause Synthesized: disjoint_lines(Smith_Patriarch, Jones_Son) :- meet_depth(0).
 ================================================================================
 ```
+
+### 🔮 Automated Predicate Learning via Inductive Closures (`learn_new_predicates.py`)
+
+The framework leverages the distributive lattice definitions of self-similar branch groups (Definition 2.2) to perform automated Inductive Logic Programming (ILP) predicate induction. Instead of relying on expensive combinatorial rule-space searches, the engine learns entirely new relational definitions by executing a **Structural Inductive Closure** over pre-existing coordinate paths.
+
+By evaluating whether raw entity 2-adic path constraints satisfy a geometric intersection threshold, unknown sub-branch constraints are dynamically isolated and hardened into stable first-order Horn clauses.
+
+#### Live Predicate Induction Execution Trace (`father(X, Y)`)
+The learning engine sweeps across the database coordinates to isolate matching traits. Trajectories that violate structural gender bit boundaries are pruned instantly, while perfect coordinate intersections automatically synthesize new valid relational code blocks on parallel hardware:
+
+```text
+================================================================================
+🔮 INITIALIZING NESTED LOGIC ILP SYSTEM: PREDICATE INDUCTION ENGINE
+================================================================================
+Target: Induct and learn unknown rule structure for predicate: 'father(X, Y)'
+--------------------------------------------------------------------------------
+[Learning Pass: Evaluating Pair (Alice, Bob)]
+  -> Extracted Lattice Intersection Strength: 0.0
+
+[Learning Pass: Evaluating Pair (David, Emma)]
+  -> Extracted Lattice Intersection Strength: 1.0
+  🚀 SUCCESS: Inducted new relational predicate block!
+  ⚡ Synthesized Horn Clause: father(David, Emma) :- parent(David, Emma), is_male(David).
+--------------------------------------------------------------------------------
+👑 INDUCTION COMPLETE: Relational Knowledge Base Updated
+  -> Total New Predicate Rules Learned: 1
+================================================================================
+```
