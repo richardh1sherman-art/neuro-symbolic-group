@@ -163,3 +163,28 @@ Goal Hypothesis: ancestor(Alice, Charlie) :- parent(Alice, Bob), parent(Bob, Cha
   -> Conclusion: ancestor(Alice, Charlie) is logically absolute.
 ================================================================================
 ```
+
+### 🧬 Nested Branch Architectures & Multi-Variable Metarules (`nested_family_metarules.py`)
+
+The engine extends the foundational branch action mathematics by implementing nested self-similar group configurations via iterated wreath product sequence embeddings. This topology maps multi-variable relational parameters and logical namespaces (such as distinct family lines and categorical attributes) into isolated coordinate dimensions.
+
+- **Nesting Attributes:** Expressed as terminal bits appended straight onto structural paths.
+- **Subtree Separation Metarule:** Evaluates the **Lattice Disjointness Principle** (Definition 2.4). Two autonomous nested bloodlines or database namespaces are strictly disjoint (\(A \wedge B = 0\)) if their 2-adic intersection trace yields a common root depth of 0.
+
+#### Disjoint Nested Linage Execution Proof Trace
+The module programmatically constructs the branching paths to ensure exact precision, generating an explicit step-by-step logical verification trace on the hardware core:
+
+```text
+================================================================================
+🔮 INITIALIZING NESTED BRANCH GROUP MULTI-VARIABLE METARULE ENGINE
+================================================================================
+[EVALUATING MULTI-VARIABLE METARULE: Disjoint Families (Smith_Patriarch & Jones_Son)]
+  Step 1 | Parsing path tracking for Smith_Patriarch: [0, 1, 0]
+  Step 2 | Parsing path tracking for Jones_Son: [1, 2, 0]
+  Step 3 | Executing Lattice Meet Matrix Intersection Pass...
+  Step 4 | Intersecting Path Trace Result: [] (Common Depth: 0)
+--------------------------------------------------------------------------------
+👑 PROOF TRACE SUCCESSFUL: 'Smith_Patriarch' and 'Jones_Son' belong to mutually disjoint subtrees.
+  -> Formal Horn Clause Synthesized: disjoint_lines(Smith_Patriarch, Jones_Son) :- meet_depth(0).
+================================================================================
+```
