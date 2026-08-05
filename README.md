@@ -216,3 +216,23 @@ Target: Induct and learn unknown rule structure for predicate: 'father(X, Y)'
   -> Total New Predicate Rules Learned: 1
 ================================================================================
 ```
+
+### 🔮 Meta-Interpretive Learning & Metarule Discovery (`discover_metarules.py`)
+
+The framework can automatically discover completely new higher-order metarule templates by executing a structural analysis over the Level 1 and Level 2 architectural layers of existing rules. This process implements **Meta-Interpretive Learning (MIL)**, allowing the engine to treat rule bases as geometric inputs to extract universal structural grammars.
+
+By evaluating the relationship between primary branch-swapping operations and sub-branch embeddings, the system synthesizes abstract templates that govern future inductive learning:
+
+```text
+================================================================================
+🔮 INITIALIZING NEURON-SYMBOLIC META-INTERPRETIVE LEARNING ENGINE
+================================================================================
+Target: Discover unknown Meta-Rule templates from Level 1 & 2 rule structures.
+--------------------------------------------------------------------------------
+[Structural Pattern Detected between 'a' and 'b']
+  -> Rule 'a' is a primary Level 1 branch swap operator.
+  -> Rule 'b' embeds the 'a' operator inside its Level 2 child block.
+  🚀 SUCCESS: Discovered new higher-order Meta-Rule template!
+  ⚡ Synthesized Metarule: meta_template_1(R, P, Q) :- active_swap(P, level_1), embedded_restriction(Q, P, level_2).
+================================================================================
+```
