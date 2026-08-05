@@ -236,3 +236,26 @@ Target: Discover unknown Meta-Rule templates from Level 1 & 2 rule structures.
   ⚡ Synthesized Metarule: meta_template_1(R, P, Q) :- active_swap(P, level_1), embedded_restriction(Q, P, level_2).
 ================================================================================
 ```
+
+#### Live Reversible Substrate Execution Trace (`reversible_tree_engine.py`)
+Executing a forward permutation pass via Generator `a` modifies the tree coordinate landscape in parallel on the GPU. By applying the exact matrix inverse (a⁻¹), the system backtracks through the state changes, achieving absolute structural recovery with zero information leakage:
+
+```text
+================================================================================
+🔮 INITIALIZING DUAL-LAYER ALGEBRAIC REVERSIBLE TREE ENGINE
+================================================================================
+  Step 1 | Initial State Vector Sample (First 3 elements):
+[-0.04699355  0.36535648  0.15411162]
+
+  Step 2 | Forward Pass Executed (Branch Swap Active).
+         | Transformed State Sample (First 3 elements):
+[-0.4908873  1.1043624  0.4854743]
+
+  Step 3 | Reverse Pass Executed via Group Inverse Operator (a^-1).
+         | Restored State Sample (First 3 elements):
+[-0.04699355  0.36535648  0.15411162]
+--------------------------------------------------------------------------------
+Mathematical Reversibility L2 Distance Delta: 0.000000
+👑 STATUS: REVERSIBILITY VERIFIED WITH ABSOLUTE MATHEMATICAL CERTAINTY
+================================================================================
+```
