@@ -2,7 +2,11 @@
 
 An accelerated framework fusing **Satisfiability Modulo Theories (SMT)** and **Inductive Logic Programming (ILP)** with **Vectorized Self-Similar Group Automata** acting on hierarchical tree networks.
 
-## ### 📖 [Developer Core Features LLM API Reference Guide](ENGINE_REFERENCE.md)
+## ### 📖 [Developer ### 📖 [Developer Core Features LLM API Reference Guide](ENGINE_REFERENCE.md)
+
+Core Features LLM API Reference Guide](ENGINE_REFERENCE.md)
+
+### 📖 [Developer Core Features LLM API Reference Guide](ENGINE_REFERENCE.md)
 
 Core Features
 - **Algebraic Core Reductions:** Accelerates logic deductions down to matrix contractions on parallel hardware layers.
